@@ -1,6 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import SampleComponent from './components/SampleComponent';
+import { Button } from '@material-ui/core';
+import TestComponent from './components/TestComponent';
 
 function App() {
   return (
@@ -16,9 +19,13 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn ReactJS
         </a>
+        <SampleComponent/>
+        <TestComponent/>
+        <Button className='box' variant='contained' color='primary'>Hello</Button>
       </header>
+      
     </div>
   );
 }

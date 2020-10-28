@@ -1,9 +1,9 @@
 import { Button } from '@material-ui/core';
 import React, { Component } from 'react';
 
-type ClockState ={
-    time: Date
-}
+// type ClockState ={
+//     time: Date
+// }
 
 class TestComponent extends Component<{}, {val : number}> {
 
